@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Asesment Faktor Criminogenic</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="bin/spectre/spectre.min.css">
+	<link rel="stylesheet" type="text/css" href="bin/spectre/spectre-exp.min.css">
+</head>
+<body>
+
+	<div class="container">
+
+		<br>
+		<h4 class="text-center">Assesment Faktor Criminogenic</h4>
+		<div class="divider"></div>
+
+		<h5>Tingkat Resiko</h5>
+
+		<ul class="step step-tingkat-resiko">
+		  <li class="step-item rendah">
+		    <a href="#!" class="tooltip" data-tooltip="Rendah">Rendah</a>
+		  </li>
+		  <li class="step-item menengah">
+		    <a href="#!" class="tooltip" data-tooltip="Menengah">Menengah</a>
+		  </li>
+		  <li class="step-item tinggi">
+		    <a href="#!" class="tooltip" data-tooltip="Tinggi">Tinggi</a>
+		  </li>
+		</ul>
+
+		<h5>Tingkat Faktor Criminogenic Keseluruhan</h5>
+
+		<ul class="step step-faktor">
+		  <li class="step-item rendah">
+		    <a href="#!" class="tooltip" data-tooltip="Rendah">Rendah</a>
+		  </li>
+		  <li class="step-item menengah">
+		    <a href="#!" class="tooltip" data-tooltip="Menengah">Menengah</a>
+		  </li>
+		  <li class="step-item tinggi">
+		    <a href="#!" class="tooltip" data-tooltip="Tinggi">Tinggi</a>
+		  </li>
+		</ul>
+
+		<table class="table">
+			<tbody>
+				<tr>
+					<td>Nama</td>
+					<td>:</td>
+					<td><span class="nama"></span></td>
+				</tr>
+				<tr>
+					<td>Nomor Registrasi</td>
+					<td>:</td>
+					<td><span class="nomor-registrasi"></span></td>
+				</tr>
+				<tr>
+					<td>Tanggal Lahir</td>
+					<td>:</td>
+					<td><span class="tanggal-lahir"></span></td>
+				</tr>
+				<tr>
+					<td>Jenis Kelamin</td>
+					<td>:</td>
+					<td><span class="jenis-kelamin"></span></td>
+				</tr>
+				<tr>
+					<td>Lokasi</td>
+					<td>:</td>
+					<td><span class="lokasi"></span></td>
+				</tr>
+				<tr>
+					<td>Tindak Pidana</td>
+					<td>:</td>
+					<td><span class="tindak-pidana"></span></td>
+				</tr>
+				<tr>
+					<td>Lama Pidana</td>
+					<td>:</td>
+					<td><span class="lama-pidana"></span></td>
+				</tr>
+				<tr>
+					<td>Alasan Assesment Dilakukan</td>
+					<td>:</td>
+					<td><span class="alasan-assesment-dilakukan"></span></td>
+				</tr>
+				<tr>
+					<td>Tingkat Resiko</td>
+					<td>:</td>
+					<td><span class="tingkat-resiko"></span></td>
+				</tr>
+				<tr>
+					<td>Nama Pewawancara</td>
+					<td>:</td>
+					<td><span class="nama-pewawancara"></span></td>
+				</tr>
+				<tr>
+					<td>Tanggal Assesment</td>
+					<td>:</td>
+					<td><span class="tanggal-assesment"></span></td>
+				</tr>
+			</tbody>
+		</table>
+
+		<div class="empty">
+		  <p class="empty-title h5">Ringkasan Kebutuhan/Faktor-Faktor</p>
+		</div>
+
+		<h5>Pendidikan/Pekerjaan (<span class="skor-pendidikan-atau-pekerjaan"></span>/10)</h5>
+
+		<ul class="step step-pendidikan-atau-pekerjaan">
+		  <li class="step-item rendah">
+		    <a href="#!" class="tooltip" data-tooltip="Rendah">Rendah</a>
+		  </li>
+		  <li class="step-item menengah">
+		    <a href="#!" class="tooltip" data-tooltip="Menengah">Menengah</a>
+		  </li>
+		  <li class="step-item tinggi">
+		    <a href="#!" class="tooltip" data-tooltip="Tinggi">Tinggi</a>
+		  </li>
+		</ul>
+
+		<h5>Penggunaan Alkohol dan Narkoba (<span class="skor-alkohol-narkoba"></span>/6)</h5>
+
+		<ul class="step step-alkohol-narkoba">
+		  <li class="step-item rendah">
+		    <a href="#!" class="tooltip" data-tooltip="Rendah">Rendah</a>
+		  </li>
+		  <li class="step-item menengah">
+		    <a href="#!" class="tooltip" data-tooltip="Menengah">Menengah</a>
+		  </li>
+		  <li class="step-item tinggi">
+		    <a href="#!" class="tooltip" data-tooltip="Tinggi">Tinggi</a>
+		  </li>
+		</ul>
+
+		<h5>Keuangan (<span class="skor-keuangan"></span>/2)</h5>
+
+		<ul class="step step-keuangan">
+		  <li class="step-item rendah">
+		    <a href="#!" class="tooltip" data-tooltip="Rendah">Rendah</a>
+		  </li>
+		  <li class="step-item menengah">
+		    <a href="#!" class="tooltip" data-tooltip="Menengah">Menengah</a>
+		  </li>
+		  <li class="step-item tinggi">
+		    <a href="#!" class="tooltip" data-tooltip="Tinggi">Tinggi</a>
+		  </li>
+		</ul>
+
+		<h5>Waktu Luang dan Rekreasi (<span class="skor-rekreasi"></span>/2)</h5>
+
+		<ul class="step step-rekreasi">
+		  <li class="step-item rendah">
+		    <a href="#!" class="tooltip" data-tooltip="Rendah">Rendah</a>
+		  </li>
+		  <li class="step-item menengah">
+		    <a href="#!" class="tooltip" data-tooltip="Menengah">Menengah</a>
+		  </li>
+		  <li class="step-item tinggi">
+		    <a href="#!" class="tooltip" data-tooltip="Tinggi">Tinggi</a>
+		  </li>
+		</ul>
+
+		<h5>Hubungan Keluarga dan Sosial (<span class="skor-sosial"></span>/6)</h5>
+
+		<ul class="step step-sosial">
+		  <li class="step-item rendah">
+		    <a href="#!" class="tooltip" data-tooltip="Rendah">Rendah</a>
+		  </li>
+		  <li class="step-item menengah">
+		    <a href="#!" class="tooltip" data-tooltip="Menengah">Menengah</a>
+		  </li>
+		  <li class="step-item tinggi">
+		    <a href="#!" class="tooltip" data-tooltip="Tinggi">Tinggi</a>
+		  </li>
+		</ul>
+
+		<h5>Sikap Antisosial/Kriminal (<span class="skor-antisosial"></span>/5)</h5>
+
+		<ul class="step step-antisosial">
+		  <li class="step-item rendah">
+		    <a href="#!" class="tooltip" data-tooltip="Rendah">Rendah</a>
+		  </li>
+		  <li class="step-item menengah">
+		    <a href="#!" class="tooltip" data-tooltip="Menengah">Menengah</a>
+		  </li>
+		  <li class="step-item tinggi">
+		    <a href="#!" class="tooltip" data-tooltip="Tinggi">Tinggi</a>
+		  </li>
+		</ul>
+
+		<h5>Lain-lainnya (<span class="skor-lainnya"></span>/9)</h5>
+
+		<ul class="step step-lainnya">
+		  <li class="step-item rendah">
+		    <a href="#!" class="tooltip" data-tooltip="Rendah">Rendah</a>
+		  </li>
+		  <li class="step-item menengah">
+		    <a href="#!" class="tooltip" data-tooltip="Menengah">Menengah</a>
+		  </li>
+		  <li class="step-item tinggi">
+		    <a href="#!" class="tooltip" data-tooltip="Tinggi">Tinggi</a>
+		  </li>
+		</ul>
+
+		<div class="empty">
+		  <p class="empty-title h5">Berbagai Penjelasan</p>
+		</div>
+
+		<dl class="jelaskan-1">
+			<dt>Tidak menyelesaikan pendidikan SMP atau lebih rendah</dt>
+			<dd></dd>
+		</dl>
+		<dl class="jelaskan-2">
+			<dt>Tidak mampu menulis/membaca</dt>
+			<dd>tes</dd>
+		</dl>
+		<dl class="jelaskan-3">
+			<dt>Pernah di skors atau dikeluarkan dari sekolah karena alasan tidak disiplin, setidaknya 1 kali</dt>
+			<dd>tes</dd>
+		</dl>
+		<dl class="jelaskan-4">
+			<dt>Sudah menganggur selama lebih dari 12 bulan</dt>
+			<dd>tes</dd>
+		</dl>
+		<dl class="jelaskan-5">
+			<dt>Ketika berada di dalam masyarakat, lebih banyak menganggur (lebih dari 50% dari waktunya di masyarakat, dalam keadaan menganggur</dt>
+			<dd>tes</dd>
+		</dl>
+		<dl class="jelaskan-6">
+			<dt>Kesulitan mencari pekerjaan atau mempertahankan pekerjaan</dt>
+			<dd>tes</dd>
+		</dl>
+		<dl class="jelaskan-7">
+			<dt>Tidak akur dengan atasan/guru di tempat kerja/sekolah</dt>
+			<dd>tes</dd>
+		</dl>
+		<dl class="jelaskan-8">
+			<dt>Tidak akur dengan sesame teman kerja/murid</dt>
+			<dd>tes</dd>
+		</dl>
+		<dl class="jelaskan-9">
+			<dt>Kinerja yang buruk</dt>
+			<dd>tes</dd>
+		</dl>
+		<dl class="jelaskan-10">
+			<dt>Tidak ada/sedikit sekali keterampilan kerja</dt>
+			<dd>tes</dd>
+		</dl>
+		<dl class="jelaskan-11">
+			<dt>Apakah ada sejarah penggunaan obat-obatan terlarang?</dt>
+			<dd class="jelaskan-narkoba">tes</dd>
+			<dd>Jenis: <span class="jenis-narkoba"></span></dd>
+			<dd>Frekuensi: <span class="frekuensi-narkoba"></span></dd>
+			<dd>Jumlah: <span class="jumlah-narkoba"></span></dd>
+		</dl>
+		<dl class="jelaskan-12">
+			<dt>Apakah ada sejarah bermasalah dalam mengkonsumsi alcohol?</dt>
+			<dd class="jelaskan-alkohol">tes</dd>
+			<dd>Jenis: <span class="jenis-alkohol"></span></dd>
+			<dd>Frekuensi: <span class="frekuensi-alkohol"></span></dd>
+			<dd>Jumlah: <span class="jumlah-alkohol"></span></dd>
+		</dl>
+		<dl class="jelaskan-13">
+			<dt>Penggunaan Narkoba atau alcohol menyebabkan masalah dalam keluarga</dt>
+			<dd>tes</dd>
+		</dl>
+		<dl class="jelaskan-14">
+			<dt>Penggunaan Narkoba atau alcohol menyebabkan masalah di sekolah atau tempat kerja</dt>
+			<dd>tes</dd>
+		</dl>
+		<dl class="jelaskan-15">
+			<dt>Penggunaan Narkoba atau alcohol menyebabkan masalah medis bagi WBP</dt>
+			<dd>tes</dd>
+		</dl>
+		<dl class="jelaskan-16">
+			<dt>Menggunakan obat-obatan atau alcohol dalam penjara atau rutan</dt>
+			<dd>tes</dd>
+		</dl>
+		<dl class="jelaskan-17">
+			<dt>Tidak ada pemasukan, yang halah, sebelum melakukan tindak pidana</dt>
+			<dd>tes</dd>
+		</dl>
+		<dl class="jelaskan-18">
+			<dt>Saat ini memiliki hutang dalam jumlah besar</dt>
+			<dd>tes</dd>
+		</dl>
+		<dl class="jelaskan-19">
+			<dt>WBP tidak mengikuti kegiatan/organisasi terstruktur (yang legal) pada masa sebelum tindak pidana</dt>
+			<dd>tes</dd>
+		</dl>
+		<dl class="jelaskan-20">
+			<dt>WBP memiliki terlalu banyak waktu luang di masyarakat</dt>
+			<dd>tes</dd>
+		</dl>
+		<dl class="jelaskan-21">
+			<dt>Hubungan yang bermasalah dengan pasangan/anggota keluarga pada masa menjelang tindak pidana</dt>
+			<dd>tes</dd>
+		</dl>
+		<dl class="jelaskan-22">
+			<dt>Anggota keluarga pernah terlibat dalam kegiatan criminal</dt>
+			<dd>tes</dd>
+		</dl>
+		<dl class="jelaskan-23">
+			<dt>Teman atau rekan pernah terlibat dalam kegiatan criminal</dt>
+			<dd>tes</dd>
+		</dl>
+		<dl class="jelaskan-24">
+			<dt>Tidak memiliki teman-teman yang pro-sosial (non-criminal)</dt>
+			<dd>tes</dd>
+		</dl>
+		<dl class="jelaskan-25">
+			<dt>Tindak pidana ini dilakukan bersama orang lain</dt>
+			<dd>tes</dd>
+		</dl>
+		<dl class="jelaskan-26">
+			<dt>Pertemanan di dalam tahanan/penjara mengakibatkan WBP menjadi bermasalah</dt>
+			<dd>tes</dd>
+		</dl>
+		<dl class="jelaskan-27">
+			<dt>Menunjukan sikap yang tidak sesuai pada masyarakat</dt>
+			<dd>tes</dd>
+		</dl>
+		<dl class="jelaskan-28">
+			<dt>Percaya bahwa kejahatan adalah metode yang sah atau diperlukan untuk memenuhi kebutuhan</dt>
+			<dd>tes</dd>
+		</dl>
+		<dl class="jelaskan-29">
+			<dt>Sedikit atau tidak ada rasa empati kepada para korban kejahatan</dt>
+			<dd>tes</dd>
+		</dl>
+		<dl class="jelaskan-30">
+			<dt>Menunjukan sikap negative terhadap system peradilan pidana</dt>
+			<dd>tes</dd>
+		</dl>
+		<dl class="jelaskan-31">
+			<dt>Menunjukan sikap negative terhadap intervensi (program/pembimbingan) untuk memperbaiki perilaku criminal</dt>
+			<dd>tes</dd>
+		</dl>
+		<dl class="jelaskan-32">
+			<dt>Masalah berjudi dengan masalah kecanduan lainnya (berjudi/pornografi/mengutil,dll)</dt>
+			<dd>tes</dd>
+		</dl>
+		<dl class="jelaskan-33">
+			<dt>Masalah dalam menangani marah atau kekerasan (termasuk KDRT)</dt>
+			<dd>tes</dd>
+		</dl>
+		<dl class="jelaskan-34">
+			<dt>Pelaku Pidana Asusila</dt>
+			<dd>tes</dd>
+		</dl>
+		<dl class="jelaskan-35">
+			<dt>Bergabung dalam jaringan criminal atau Genk</dt>
+			<dd>tes</dd>
+		</dl>
+		<dl class="jelaskan-36">
+			<dt>Tindak pidana teroganisir / Tindak pidana atas kebencian / Tindak pidana Terorisme</dt>
+			<dd>tes</dd>
+		</dl>
+		<dl class="jelaskan-37">
+			<dt>Tidak mematuhi prinsip-prinsip Pancasila</dt>
+			<dd>tes</dd>
+		</dl>
+		<dl class="jelaskan-38">
+			<dt>Berkemungkinan menjadi tunawisma pada saat pembebasan (atau jika sedang menjalani PB, saat ini tidak ada tempat tinggal)</dt>
+			<dd>tes</dd>
+		</dl>
+		<dl class="jelaskan-39">
+			<dt>Kurangnya dukungan keluarga atau masyarakat</dt>
+			<dd>tes</dd>
+		</dl>
+		<dl class="jelaskan-40">
+			<dt>Berada dibawah ancaman orang lalin</dt>
+			<dd>tes</dd>
+		</dl>
+
+		<div class="divider"></div>
+		<p class="text-center">This application is made by <a href="https://api.whatsapp.com/send?phone=6281545143654&text=Assalamualaikum%20Kak%20Zen.%20Saya%20menggunakan%20aplikasi%20assesment%20resiko%20residivis">Zen</a> &bull; ideas and creative by <a href="https://api.whatsapp.com/send?phone=6285250216569&text=Assalamualaikum%20Kak%20Rama.%20Saya%20menggunakan%20aplikasi%20assesment%20resiko%20residivis">Tamyis Ade Rama, S.Psi</a> &bull; UPT. BAPAS Samarinda &bull; Kementrian Hukum dan HAM &bull; Provinsi Kalimantan Timur</p>
+
+	</div>
+
+	<!-- skrip -->
+
+	<script type="text/javascript" src="bin/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="bin/custom/konversi.js"></script>
+
+</body>
+</html>
